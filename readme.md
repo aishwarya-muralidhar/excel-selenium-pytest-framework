@@ -1,13 +1,17 @@
-# Excel Selenium Pytest Framework
+# Selenium Pytest Data-Driven Framework
+
+## Tech Stack
+- Python
+- Selenium WebDriver
+- Pytest
+- Pandas (Excel handling)
 
 ## Features
-- Selenium automation
-- Pytest framework
-- Excel-driven test data
-- Page Object Model
+- Data-driven testing using Excel
+- Page Object Model (POM)
+- Reusable utility functions
+- Pytest fixtures
 
-## Install
+## How to Run
 pip install -r requirements.txt
-
-## Run Tests
 pytest -v
