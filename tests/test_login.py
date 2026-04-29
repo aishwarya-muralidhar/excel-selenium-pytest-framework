@@ -12,3 +12,8 @@ def test_login(driver, data):
     login.enter_username(data["username"])
     login.enter_password(data["password"])
     login.click_login()
+
+    if data["expected_result"] == "success":
+        assert login.is_login_successful(), "Expected success but failed"
+    else:
+        assert not login.is_login_successful(), "Expected failure but succeeded"

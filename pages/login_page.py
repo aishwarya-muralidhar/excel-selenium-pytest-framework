@@ -18,3 +18,6 @@ class LoginPage:
 
     def click_login(self):
         self.driver.find_element(*self.login_btn).click()
+
+    def is_login_successful(self):
+        return "inventory" in self.driver.current_url.lower()
