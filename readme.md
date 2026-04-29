@@ -15,3 +15,12 @@
 ## How to Run
 pip install -r requirements.txt
 pytest -v
+
+
+## Reports & Screenshots
+
+To generate an HTML report:
+pytest -v --html=reports/report.html --self-contained-html
+
+Screenshots are captured automatically on test failure and stored in:
+reports/screenshots/
