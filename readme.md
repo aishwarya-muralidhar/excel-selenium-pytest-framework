@@ -48,6 +48,16 @@ excel-selenium-pytest-framework/
 ├── test_data/
 │   └── login_data.xlsx
 │
+├── reports/                # HTML test reports
+│   └── report.html
+│   └── screenshots/
+│       └── test_login_failure.png
+│
+├── docs/                   # Images used in README
+│   ├── html_report.png
+│   └── failure_screenshot.png
+│   └── failure_screenshot1.png
+│
 ├── conftest.py
 ├── requirements.txt
 └── README.md
