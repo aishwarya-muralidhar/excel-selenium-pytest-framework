@@ -64,7 +64,7 @@ cd excel-selenium-pytest-framework
 ### Create virtual environment
 
 python -m venv venv
-source venv/bin/activate   # Mac/Linux
+source venv/bin/activate   
 
 ### Install dependencies
 
