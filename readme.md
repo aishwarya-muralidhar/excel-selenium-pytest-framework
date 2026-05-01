@@ -33,7 +33,7 @@ The framework is designed following **industry best practices** such as the **Pa
 ---
 
 ## Project Structure
-
+```
 excel-selenium-pytest-framework/
 │
 ├── tests/
@@ -61,29 +61,32 @@ excel-selenium-pytest-framework/
 ├── conftest.py
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ### How to Run the Tests
 
 ### Clone the repository
-
+```
 git clone https://github.com/aishwarya-muralidhar/excel-selenium-pytest-framework.git
 cd excel-selenium-pytest-framework
+```
 
 ### Create virtual environment
-
+```
 python -m venv venv
-source venv/bin/activate   
+source venv/bin/activate
+```   
 
 ### Install dependencies
-
+```
 pip install -r requirements.txt
+```
 
 ### Run tests
-
+```
 pytest -v
-
+```
 ---
 
 ## Test Scenarios Covered
@@ -96,15 +99,15 @@ pytest -v
 
 ## Sample Test Execution
 
-> Example:
-
+Example:
+```
 ================== test session starts ==================
 collected 7 items
 
 tests/test_login.py .....                        [100%]
 
 ================== 7 passed in 6.21s ==================
-
+```
 ---
 
 ## Test Reports
